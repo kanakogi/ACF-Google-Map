@@ -1,5 +1,5 @@
 # ACF Google Map
-This jQuery Plugin is a Wrapper for WordPress Plugin's ACF Google Map
+This jQuery Plugin is for WordPress Plugin's ACF Google Map
 http://www.advancedcustomfields.com/resources/google-map/
 
 ## Example
