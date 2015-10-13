@@ -51,7 +51,8 @@
         var args = {
             zoom: options.zoom,
             center: new google.maps.LatLng(0, 0),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: options.scrollwheel
         };
 
 
@@ -170,6 +171,7 @@
      */
     $.fn.acfGoogleMap.defaults = {
         zoom: 16,
+        scrollwheel: false,
         css:{
             width:'100%',
             height:400,
